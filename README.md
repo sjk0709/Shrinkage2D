@@ -1,7 +1,7 @@
 # Shrinkage2D
 
-GPU : GTX770 (4G)
-pytorch 사용
+1. GPU : GTX770 (4G)
+2. pytorch 사용
 
 ## Dataset
 1. 256x256 사이즈의 mesh로 다양한 형상에 대해 수축공 해석
