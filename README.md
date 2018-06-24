@@ -29,7 +29,7 @@
 현재 가장 좋은 결과를 나타낸다. 
 
 ## jkfcn2 
-1. batch_size : 50
+1. batch_size : 49
 
 
 
