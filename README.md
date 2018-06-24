@@ -10,8 +10,11 @@ pytorch 사용
 
 ## Learning environment
 'feature_shape' : [1, 128, 128],
+
 'label_shape' : [1, 128, 128],
+
 'feature_type' : 'torch',
+
 'learning_rate' : 1e-4,  
 
 
