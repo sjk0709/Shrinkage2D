@@ -15,19 +15,20 @@ pytorch 사용
 'learning_rate' : 1e-4,  
 
 
-## In jkcnn1 
+## jkcnn1 
 1. bath_size : 100
 2. 
 
-## In jkvae1 
+## jkvae1 
 1. bath_size : 100
 
 
-## In jkfcn1 
+## jkfcn1 
 1. batch_size : 80
-현재 가장 좋은 결과 보여준다. 
 
-## In jkfcn2 
+현재 가장 좋은 결과를 나타낸다. 
+
+## jkfcn2 
 1. batch_size : 50
 
 
