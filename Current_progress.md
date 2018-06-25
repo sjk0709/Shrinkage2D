@@ -15,27 +15,21 @@
 4. learning_rate : 1e-4
 
 
-## jkcnn1 
-1. bath_size : 100
-2. 
+## jkcnn1 ( batch_size : 100 )
 
-## jkvae1 
-1. bath_size : 100
+## jkvae1 ( batch_size : 100 )
 
+## jkfcn1 ( batch_size : 80 )
 
-## jkfcn1 
-1. batch_size : 80
+## jkfcn2 ( batch_size : 50 )
+jkfcn1 ( batch_size : 80 )과 비슷하나 조금 더 좋은 결과를 나타내는것으로 보인다.
 
-현재 가장 좋은 결과를 나타낸다. 
+## jkfcn4 ( batch_size : 80 )
+학습중
 
-## jkfcn2 
-1. batch_size : 50
-
-## jkfcn4
-1. batch_size : 80
 
 ## jkfcn5 
-1. batch_size : 50
+
 
 
 
