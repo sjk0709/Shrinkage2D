@@ -31,6 +31,11 @@
 ## jkfcn2 
 1. batch_size : 50
 
+## jkfcn4
+1. batch_size : 80
+
+## jkfcn5 
+1. batch_size : 50
 
 
 
