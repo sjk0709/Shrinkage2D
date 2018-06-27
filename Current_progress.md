@@ -23,13 +23,14 @@
 
 ## jkfcn2 (batch_size : 50)
 jkfcn1 ( batch_size : 80 )과 비슷하나 조금 더 좋은 결과를 나타내는것으로 보인다.
+현재 가장 좋은 결과를 보인다. 
 
 ## jkfcn4 (batch_size : 80)
 학습중
 
 
 ## jkfcn5 (batch_size : 50)
-현재 가장 좋은 결과 보여준다.
+나쁘지 않다.
 
 
 
