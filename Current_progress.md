@@ -16,6 +16,15 @@
 
 
 ## jkcnn1 (batch_size : 100)
+## jkcnn2 (batch_size : 100)
+## jkcnn3 (batch_size : 100)
+* 4 layer 사용
+* pooling, dropout 사용
+* batchnorm 사용안함 (메모리 절약)
+
+## jkcnn4 (batch_size : 100)
+
+
 
 ## jkvae1 (batch_size : 100)
 
@@ -30,7 +39,7 @@ jkfcn1 ( batch_size : 80 )과 비슷하나 조금 더 좋은 결과를 나타내
 
 
 ## jkfcn5 (batch_size : 50)
-* pooling, dropout 제거 
+* pooling, dropout 제거 (계산 및 메모리 절약)
 * batchnorm 사용
 * convolution에서 stride를 2로 설정함으로써 사이즈 줄여나감
 * 결과 : 나쁘지 않다.
