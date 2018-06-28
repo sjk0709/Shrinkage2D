@@ -18,7 +18,7 @@
 ## jkcnn1 (batch_size : 100)
 ## jkcnn2 (batch_size : 100)
 ## jkcnn3 (batch_size : 100)
-* 4 layer 사용 (2개식 4-layer : 64-64-128-128-256-256-512-512)
+* Conv 4 layer FC 2개 사용  ( conv : 64-64-128-128-256-256-512-512 ) - ( fc : 1024-output_size )
 * pooling, dropout 사용
 * batchnorm 사용안함 (메모리 절약)
 
