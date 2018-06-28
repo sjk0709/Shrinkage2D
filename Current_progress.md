@@ -30,7 +30,10 @@ jkfcn1 ( batch_size : 80 )과 비슷하나 조금 더 좋은 결과를 나타내
 
 
 ## jkfcn5 (batch_size : 50)
-나쁘지 않다.
+* pooling, dropout 제거 
+* batchnorm 사용
+* convolution에서 stride를 2로 설정함으로써 사이즈 줄여나감
+* 결과 : 나쁘지 않다.
 
 
 
