@@ -34,6 +34,7 @@
 ## jkfcn2 (batch_size : 50)
 jkfcn1 ( batch_size : 80 )과 비슷하나 조금 더 좋은 결과를 나타내는것으로 보인다.
 현재 가장 좋은 결과를 보인다. 
+* 앙상블에 포함해야 함
 
 ## jkfcn4 (batch_size : 80)
 학습중
@@ -44,6 +45,7 @@ jkfcn1 ( batch_size : 80 )과 비슷하나 조금 더 좋은 결과를 나타내
 * batchnorm 사용
 * convolution에서 stride를 2로 설정함으로써 사이즈 줄여나감
 * 결과 : 나쁘지 않다.
+* 앙상블에 포함해야 함
 
 
 
