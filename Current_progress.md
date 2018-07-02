@@ -14,6 +14,24 @@
 - feature_type : torch
 - learning_rate : 1e-4
 
+## 진행상황
+- 현재 jkfcn2 모델들이 가장 좋은 성능을 보여준다. 
+- jkfcn5은 시각적으로 jkfcn2 보다는 부정확해보이나 앙상블에 포함해 볼만한다.
+- 단순 jkcnn 시리즈 모델들은 쓰기 힘들 것으로 보인다.
+
+- VAE 개선할 것
+- ResNET 형식 네트워크 테스트 해보자. 
+- GAN 시도해 볼 것
+
+## 앞으로 할 일
+- 현재 jkfcn2 모델들이 가장 좋은 성능을 보여준다. 
+- jkfcn5은 시각적으로 jkfcn2 보다는 부정확해보이나 앙상블에 포함해 볼만한다.
+- 단순 jkcnn 시리즈 모델들은 쓰기 힘들 것으로 보인다.
+
+- VAE 개선할 것
+- ResNET 형식 네트워크 테스트 해보자. 
+- GAN 시도해 볼 것
+
 ## Networks
 ### 파일 이름 설명
 Ex) GC25_S3C40_jkfcn2_128_RX
@@ -22,15 +40,6 @@ Ex) GC25_S3C40_jkfcn2_128_RX
 - jkfcn2 : 네트워크 이름
 - 128 : input size가 128x128이다 
 - RX -  S(Sigmoid) | R(ReLU) |  X(없음)    Ex) RX -> (ConvNet - ReLU - DeconvNet - 없음)
-
-### 진행상황
-- 현재 jkfcn2 모델들이 가장 좋은 성능을 보여준다. 
-- jkfcn5은 시각적으로 jkfcn2 보다는 부정확해보이나 앙상블에 포함해 볼만한다.
-- 단순 jkcnn 시리즈 모델들은 쓰기 힘들 것으로 보인다.
-
-- VAE 개선할 것
-- ResNET 형식 네트워크 테스트 해보자. 
-- GAN 시도해 볼 것
 
 #### jkcnn1 (batch_size : 100)
 #### jkcnn2 (batch_size : 100)
