@@ -16,7 +16,7 @@
 
 ## Networks
 ### 파일 이름 설명
-GC25_S3C40_jkfcn2_128_RX
+Ex) GC25_S3C40_jkfcn2_128_RX
 1. GC25 : 금속재질
 2. S3C40  -  S : 수축률(%)  | C : 한계고상률(%)
 3. jkfcn2 : 네트워크 이름
