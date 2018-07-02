@@ -1,11 +1,11 @@
 # Shrinkage2D
 
-1. GPU : GTX770 (4G)
-2. pytorch 사용
+- GPU : GTX770 (4G)
+- pytorch 사용
 
 ## Dataset
-1. 256x256 사이즈의 mesh로 다양한 형상에 대해 수축공 해석
-2. 256x256 사이즈의 feature는 현재 GPU spec에 너무 크기 때문에 128x128으로  줄였다. 
+- 256x256 사이즈의 mesh로 다양한 형상에 대해 수축공 해석
+- 256x256 사이즈의 feature는 현재 GPU spec에 너무 크기 때문에 128x128으로  줄였다. 
 
 
 ## Learning environment (모든 네트워크에 대한 공통된 환경)
