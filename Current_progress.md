@@ -9,19 +9,19 @@
 
 
 ## Learning environment (모든 네트워크에 대한 공통된 환경)
-1. feature_shape : [1, 128, 128]
-2. label_shape : [1, 128, 128]
-3. feature_type : torch
-4. learning_rate : 1e-4
+- feature_shape : [1, 128, 128]
+- label_shape : [1, 128, 128]
+- feature_type : torch
+- learning_rate : 1e-4
 
 ## Networks
 ### 파일 이름 설명
 Ex) GC25_S3C40_jkfcn2_128_RX
-1. GC25 : 금속재질
-2. S3C40  -  S : 수축률(%)  | C : 한계고상률(%)
-3. jkfcn2 : 네트워크 이름
-4. 128 : input size가 128x128이다 
-5. RX -  S(Sigmoid) | R(ReLU) |  X(없음)    Ex) RX -> (ConvNet - ReLU - DeconvNet - 없음)
+- GC25 : 금속재질
+- S3C40  -  S : 수축률(%)  | C : 한계고상률(%)
+- jkfcn2 : 네트워크 이름
+- 128 : input size가 128x128이다 
+- RX -  S(Sigmoid) | R(ReLU) |  X(없음)    Ex) RX -> (ConvNet - ReLU - DeconvNet - 없음)
 
 ### 진행상황
 - 현재 jkfcn2 모델들이 가장 좋은 성능을 보여준다. 
