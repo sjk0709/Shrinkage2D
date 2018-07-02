@@ -21,7 +21,7 @@
 * Conv 4 layer FC 2개 사용  ( conv : 64-64-128-128-256-256-256-512-512-512 ) - ( fc : 1200-output_size )
 * pooling, dropout 사용
 * batchnorm 사용안함 (메모리 절약)
-* 앙상블에 포함시켜볼만 함
+* 쓰기 힘들듯
 
 ## jkcnn4 (batch_size : 100)
 
