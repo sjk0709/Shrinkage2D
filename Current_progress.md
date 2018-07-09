@@ -13,6 +13,7 @@
 - label_shape : [1, 128, 128]
 - feature_type : torch
 - learning_rate : 1e-4
+- Type A : 수축한 모델이 결과로 출력    |    Type B : 수축공이 결과로 출력   
 
 ## 진행상황
 - 현재 jkfcn2 모델들이 가장 좋은 성능을 보여준다. 
@@ -28,6 +29,7 @@
 - 현재 jkfcn2 모델들이 가장 좋은 성능을 보여준다. 
 - jkfcn5은 시각적으로 jkfcn2 보다는 부정확해보이나 앙상블에 포함해 볼만한다.
 - 단순 jkcnn 시리즈 모델들은 쓰기 힘들 것으로 보인다.
+- Type B 에서 수축공 결과 모델 위에 출력하게 만들기
 
 - VAE 개선할 것
 - ResNET 형식 네트워크 테스트 해보자. 
@@ -56,6 +58,9 @@ Ex) GC25_S3C40_jkfcn2_128_RX
 #### jkvae1 (batch_size : 100)
 
 #### jkfcn1 (batch_size : 80)
+
+#### GC25_S3C40_jkfcn2_128_S (batch_size : 50)
+Type A : 현재까지 결과 좋음
 
 #### GC25_S3C40_jkfcn2_128_SX (batch_size : 50)
 jkfcn1 ( batch_size : 80 )과 비슷하나 조금 더 좋은 결과를 나타내는것으로 보인다.
@@ -91,6 +96,8 @@ jkfcn1 ( batch_size : 80 )과 비슷하나 조금 더 좋은 결과를 나타내
 * convolution에서 stride를 2로 설정함으로써 사이즈 줄여나감
 * 결과 : 나쁘지 않다.
 * 앙상블에 포함해야 함
+
+
 
 
 
